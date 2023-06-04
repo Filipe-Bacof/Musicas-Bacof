@@ -10,7 +10,7 @@ body * {
 }
 
 body {
-  background-image: url(./assets/bg.jpg);
+  background-image: url(./assets/bg-new.jpg);
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -22,26 +22,26 @@ header {
   height: calc(120px + 32px);
 }
 
-header div {
+header a {
   width: 120px;
   margin: auto;
   background-image: linear-gradient(
     90deg,
-    #2183bd 0%,
-    #193685 50.52%,
-    #591985 100%
+    #ff0000 0%,
+    #ff5900 55.52%,
+    #ffc400 100%
   );
   border-radius: 50%;
   display: flex;
-  padding: 4px;
+  padding: 5px;
   transition: transform 0.4s;
 }
 
-header div:hover {
+header a:hover {
   transform: scale(1.1);
 }
 
-header div img {
+header a img {
   width: 100%;
   border-radius: 50%;
 }
@@ -60,16 +60,16 @@ section {
   color: white;
   background-image: linear-gradient(
     90deg,
-    #2183bd 0%,
-    #193685 50.52%,
-    #591985 100%
+    #ff0000 0%,
+    #ff5900 55.52%,
+    #ffc400 100%
   );
   padding-top: 4px;
   border-radius: 10px;
 }
 
 section div {
-  background-color: #2a2634;
+  background-color: #080606;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
@@ -129,7 +129,7 @@ a img {
 
 /* Animation */
 
-header div {
+header a {
   animation: fromTop 0.8s 0.2s backwards;
 }
 
