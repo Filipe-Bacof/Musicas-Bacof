@@ -2,7 +2,7 @@
 
 ## [Link do Projeto Original do Evento](https://github.com/Filipe-Bacof/NLW_Rocketseat_Explorer_Esports)
 
-## [Link do Deploy do Projeto Original(https://filipe-bacof.github.io/NLW_Rocketseat_Explorer_Esports/)
+## [Link do Deploy do Projeto Original](https://filipe-bacof.github.io/NLW_Rocketseat_Explorer_Esports/)
 
 ## [Acesse Meu Portifólio](https://portifolio-filipe-bacof.vercel.app/)
 
