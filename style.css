@@ -10,11 +10,11 @@ body * {
 }
 
 body {
-  background-image: url(./assets/background.png);
+  background-image: url(./assets/background2.png);
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #000;
+  background-color: #020301;
 }
 
 header {
@@ -124,6 +124,7 @@ a img {
 
 .social-list img {
   height: 60px;
+  border-radius: 16px;
   width: auto;
 }
 

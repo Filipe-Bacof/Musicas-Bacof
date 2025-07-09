@@ -30,6 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const bands = [
     {
+        "name": "Nile",
+        "spotify": "https://open.spotify.com/artist/3v3VSKylQE69ztn5TUVlFE",
+        "image": "https://cdn-images.dzcdn.net/images/artist/351c83e177efc133e3d4ce1bf7cfb32d/1900x1900-000000-80-0-0.jpg"
+    },
+    {
         "name": "Death",
         "spotify": "https://open.spotify.com/artist/4f5V3PQ66nIrBCqugJtaGn",
         "image": "https://images.genius.com/624dabc68558039a5bd547d60899173e.770x770x1.jpg"
@@ -38,6 +43,11 @@ const bands = [
         "name": "Amon Amarth",
         "spotify": "https://open.spotify.com/artist/3pulcT2wt7FEG10lQlqDJL",
         "image": "https://akamai.sscdn.co/letras/250x250/fotos/3/4/9/7/3497336a27b55651092c4704faa2ec53.jpg"
+    },
+    {
+        "name": "Rammstein",
+        "spotify": "https://open.spotify.com/artist/6wWVKhxIU2cEi0K81v7HvP",
+        "image": "https://static.dw.com/image/48777860_804.jpg"
     },
     {
         "name": "Metallica",
@@ -50,11 +60,6 @@ const bands = [
         "image": "https://roquereverso.files.wordpress.com/2022/09/megadeth.jpg"
     },
     {
-        "name": "Belphegor",
-        "spotify": "https://open.spotify.com/artist/1uPIYn2IU0IuPWSZ58kzyM",
-        "image": "https://i.scdn.co/image/ab6761610000e5eb2ab1a7b9329f83536f952214"
-    },
-    {
         "name": "Slayer",
         "spotify": "https://open.spotify.com/artist/1IQ2e1buppatiN1bxUVkrk",
         "image": "http://www.albumrock.net/dyn_img/groupes/1218.jpg"
@@ -63,11 +68,6 @@ const bands = [
         "name": "Black Sabbath",
         "spotify": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlnTQIL2L9RwXa0QRvP8pxXVXI11V51jRYdwbRwi2b2UPJDrESIWzYizUYPdOYtrDUxqo&usqp=CAU"
-    },
-    {
-        "name": "Rammstein",
-        "spotify": "https://open.spotify.com/artist/6wWVKhxIU2cEi0K81v7HvP",
-        "image": "https://static.dw.com/image/48777860_804.jpg"
     }
 ];
 
@@ -83,9 +83,9 @@ const albuns = [
         "image": "https://cdns-images.dzcdn.net/images/cover/d0cb9616fb23c55b2d477a3724e12985/264x264.jpg"
     },
     {
-        "name": "Pestapokalipse VI",
-        "spotify": "https://open.spotify.com/album/49J7pB6xc7G6mR8pYreIXq",
-        "image": "https://cdns-images.dzcdn.net/images/cover/64a1fcdb5367611d3ba5b16b6550923f/500x500.jpg"
+        "name": "Annihilation Of The Wicked",
+        "spotify": "https://open.spotify.com/album/4BjBX6Ra2PgsH3qy5NsK2A",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Nile_-_Annihilation_Of_The_Wicked.jpg"
     },
     {
         "name": "Surtur Rising",
@@ -98,9 +98,9 @@ const albuns = [
         "image": "https://m.media-amazon.com/images/I/817FhcppDOL._UF1000,1000_QL80_.jpg"
     },
     {
-        "name": "Deicide",
-        "spotify": "https://open.spotify.com/album/2gdL5FVb9weq5fVFa7Qw5F",
-        "image": "https://pbs.twimg.com/media/EW7MXAtXsAIM_Pj.jpg"
+        "name": "Believe",
+        "spotify": "https://open.spotify.com/album/6PfpFynKzUEFitHt7BwcVL",
+        "image": "https://cdn-images.dzcdn.net/images/cover/9772445df8eaeadb716d6e8c03f6c81a/0x1900-000000-80-0-0.jpg"
     },
     {
         "name": "2112",
@@ -108,9 +108,14 @@ const albuns = [
         "image": "https://classicrockreview.wordpress.com/wp-content/uploads/2021/07/rush_2112.jpg"
     },
     {
-        "name": "Infestissumam",
-        "spotify": "https://open.spotify.com/album/32CbQps06lUasiux6N8tP3",
-        "image": "https://m.media-amazon.com/images/I/61UtVEv9jTL._AC_SX425_.jpg"
+        "name": "Black Ice",
+        "spotify": "https://open.spotify.com/album/7qVfz4UGONwEd5nQjj0ESN",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/5/55/Black_Ice.jpg"
+    },
+    {
+        "name": "Paranoid",
+        "spotify": "https://open.spotify.com/album/4kA2o0L3tz9vFKJetiFUJI",
+        "image": "https://m.media-amazon.com/images/I/81J19yHBFTL._UF894,1000_QL80_.jpg"
     },
     {
         "name": "M-16",
@@ -118,29 +123,24 @@ const albuns = [
         "image": "https://m.media-amazon.com/images/I/91Vx0qbXxCL._UF1000,1000_QL80_.jpg"
     },
     {
-        "name": "Black Metal",
-        "spotify": "https://open.spotify.com/album/1e6Osda6t8UDFYQ29sFVlV",
-        "image": "https://m.media-amazon.com/images/I/51BNO6kP3CL._AC_SX425_.jpg"
+        "name": "Dirt",
+        "spotify": "https://open.spotify.com/album/58NXIEYqmq5dQHg9nV9duM",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/b/ba/Dirt.jpg"
     },
     {
-        "name": "Cause of Death",
-        "spotify": "https://open.spotify.com/album/79fVRZLnIqS3FytTLfTBT4",
-        "image": "https://www.mundometalbr.com/wp-content/uploads/2021/10/bcd30e_a6292598ae3341bf975b7a0fa3145ff8_mv2.jpg"
+        "name": "Torture",
+        "spotify": "https://open.spotify.com/album/7AaZ6zhZXDKilXqsJ52g8b",
+        "image": "https://m.media-amazon.com/images/I/81Ljy1yOnZL._UF1000,1000_QL80_.jpg"
     },
     {
-        "name": "Hellbilly Deluxe",
-        "spotify": "https://open.spotify.com/album/2B4lHoTCpWbxQPTZmCOjnH",
-        "image": "https://m.media-amazon.com/images/I/81bPrUAESnL._AC_SX355_.jpg"
+        "name": "Thirteen",
+        "spotify": "https://open.spotify.com/album/0ja6Rjg1a5Fw2IEwTymwQE",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/d/d4/Megadeth_TH1RT3EN_Cover.jpg"
     },
     {
-        "name": "Peace Sells",
-        "spotify": "https://open.spotify.com/album/4U8ZF5zDIRy4lBnnXBN2uO",
-        "image": "https://www.mundometalbr.com/wp-content/uploads/2021/10/45b4d3_8de7776a56534bcebebd87efcb2e6eeb_mv2.jpg"
-    },
-    {
-        "name": "Show no Mercy",
-        "spotify": "https://open.spotify.com/album/3D6BriGykla1Qi2YzeoE7X",
-        "image": "https://upload.wikimedia.org/wikipedia/pt/1/1b/Show_No_Mercy.jpg"
+        "name": "Repentless",
+        "spotify": "https://open.spotify.com/album/5QTGKCuJbyViaQQXjHOvjL",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/2/2f/Repentless.png"
     },
     {
         "name": "Extreme Aggression",
@@ -148,9 +148,9 @@ const albuns = [
         "image": "https://lastfm.freetls.fastly.net/i/u/ar0/aa583571268567a0a3e4b5fe097555ef"
     },
     {
-        "name": "Rise of the Reaper",
-        "spotify": "https://open.spotify.com/album/5MpIM8YvJWKW5DGaJWf9ut",
-        "image": "https://roadiecrew.com/wp-content/uploads/Entrails-rise-of-the-reaper.jpg"
+        "name": "From Hell I Rise",
+        "spotify": "https://open.spotify.com/album/4ckLWU4gnRz63E4raWVEFF",
+        "image": "https://m.media-amazon.com/images/I/81brELnx-EL._UF350,350_QL50_.jpg"
     }
 ];
 
@@ -158,21 +158,28 @@ const social = [
     {
         "name": "Instagram",
         "link": "https://www.instagram.com/filipe.bacof/",
-        "image": "https://img.icons8.com/fluency/2x/instagram-new.png"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/500px-Instagram_icon.png"
     },
     {
         "name": "GitHub",
         "link": "https://github.com/Filipe-Bacof",
-        "image": "https://cdn.icon-icons.com/icons2/2429/PNG/512/github_logo_icon_147285.png"
+        "image": "https://camo.githubusercontent.com/4374f0b29a45f7d158ec8fe94398eb90f4ac94c03d6b99346b99e916e5157cb9/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f706e672f6769746875622e706e67"
     },
     {
         "name": "Linkedin",
         "link": "https://www.linkedin.com/in/filipe-bacof/",
-        "image": "https://img.icons8.com/fluency/2x/linkedin.png"
+        "image": "https://images.icon-icons.com/1043/PNG/512/social_media_icons_flat_shadow_set_512x512_0010_linkedin_icon-icons.com_76459.png"
     },
     {
         "name": "Facebook",
         "link": "https://www.facebook.com/filipe.bacof/",
-        "image": "https://img.icons8.com/color/2x/facebook-new.png"
+        "image": "https://cdn6.aptoide.com/imgs/3/a/3/3a358df023050199d97d4ee04ca27f00_icon.png"
+    },
+    {
+        "name": "Threads",
+        "link": "https://www.threads.com/@filipe.bacof",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF9YLpYW4qCi3gA_o-i3_gw2a7-fKjM8Q_8Q&s"
     }
+
+    
 ];
